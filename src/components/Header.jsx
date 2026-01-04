@@ -6,7 +6,7 @@ function Header() {
       <div className=" flex justify-evenly items-center">
         <div>
           <img
-            src="src/assets/1000095807.jpg"
+            src="https://images.pexels.com/photos/35096936/pexels-photo-35096936.jpeg"
             alt="photo"
             className="w-40 rounded-2xl"
           />

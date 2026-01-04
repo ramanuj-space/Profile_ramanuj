@@ -1,4 +1,5 @@
 import React from "react";
+import Download from "./Download";
 
 function Main() {
   return (
@@ -95,15 +96,7 @@ function Main() {
       </div>
       <div id="resumeDownload">
         <h1 className="text-3xl text-center m-5">Download My Resume</h1>
-        <div className="text-center">
-          <a
-            href="/path/to/resume.pdf"
-            download
-            className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600"
-          >
-            Download Resume
-          </a>
-        </div>
+        <Download />
       </div>
     </div>
   );
