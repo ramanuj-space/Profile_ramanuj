@@ -5,7 +5,9 @@ function Download() {
     <div>
       <div className="text-center">
         <a
-          href={"./public/ramanuj_resume.pdf"}
+          href={
+            "https://docs.google.com/document/d/1_GKwjqTLK1ArYh1wprD93MKkMmzbe_mKhEweOV68NFY/edit?usp=sharing"
+          }
           download="ramanuj_resume.pdf"
           className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600"
         >
